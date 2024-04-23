@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "redirects": [
+    {
+      "source": "/你的婚礼",
+      "destination": "/你的婚礼/index.html",
+      "statusCode": 301
+    }
+  ]
+}
