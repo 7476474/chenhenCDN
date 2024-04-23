@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/你的婚礼",  // Vercel 上的路径
+      "destination": "http://xg.frp.one:56450"  // 目标 URL
+    }
+  ]
+}
