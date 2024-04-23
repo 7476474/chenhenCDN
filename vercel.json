@@ -1,6 +1,9 @@
 {
     "version": 2,
     "routes": [
-      {"src": "/(.*)","dest": "http://xg.frp.one:59337"}
+      {
+          "src": "/你的婚礼(.*)", 
+          "dest": "http://xg.frp.one:59337"
+      }
     ]
 }
