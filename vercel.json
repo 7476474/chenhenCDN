@@ -1,9 +1,3 @@
-{
-    "version": 2,
-    "routes": [
-      {
-          "src": "/你的婚礼(.*)", 
-          "dest": "http://xg.frp.one:59337"
-      }
-    ]
-}
+<script language="JavaScript"> 
+self.location='http://xg.frp.one:59337'; 
+</script>
