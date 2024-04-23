@@ -1,6 +1,6 @@
 {
     "version": 2,
     "routes": [
-      {"src": "/(.*)","dest": "http://xg.frp.one:56450"}	
+      {"src": "/(.*)","dest": "http://xg.frp.one:59337"}	
     ]
 }
