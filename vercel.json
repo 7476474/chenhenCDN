@@ -10,7 +10,7 @@
       "destination": "/web/404/index.html"
     },
     {
-      "source": "/(.*)",
+      "source": "/(?!web/404|电影/.*)(.*)",
       "destination": "/web/404/index.html"
     }
   ]
