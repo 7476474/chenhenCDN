@@ -3,6 +3,13 @@
     {
       "source": "/电影/你的婚礼",
       "destination": "/电影/你的婚礼/index.html"
+    },
+    {
+      "source": "/web/404",
+      "destination": "/web/404/index.html"
     }
-  ]
+  ],
+  "error": {
+    "404": "/web/404/index.html"
+  }
 }
