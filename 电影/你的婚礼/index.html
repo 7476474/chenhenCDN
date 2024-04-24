@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>文件存储CDN</title>
+</head>
+<body>
+    <h1>.../server/hen-centOS/8/x86_64/CDN/电影/你的婚礼/你的婚礼.mp4</h1>
+    <video id="videoPlayer" width="640" height="360" controls>
+        <!-- 设置视频文件的路径 -->
+        <source src="https://chenhen-cdn-1324225648.cos.ap-hongkong.myqcloud.com/你的婚礼.mp4" type="video/mp4">
+        <!-- 当浏览器不支持该格式时的备用文本 -->
+        您的浏览器不支持 MP4 视频播放。
+    </video>
+
+    <script>
+        const video = document.getElementById('videoPlayer');
+        video.addEventListener('canplay', function () {
+            video.play(); // 当视频可以播放时自动开始
+        });
+    </script>
+</body>
+</html>
