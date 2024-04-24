@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/你的婚礼",
-      "destination": "/你的婚礼/index.html"
+      "source": "/电影/你的婚礼",
+      "destination": "/电影/你的婚礼/index.html"
     }
   ]
 }
