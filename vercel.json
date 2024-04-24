@@ -9,7 +9,7 @@
       "destination": "/web/404/index.html"
     },
     {
-      "source": "/(.*)",
+      "source": "/(?!web/404)(.*)",
       "destination": "/web/404/index.html"
     }
   ]
