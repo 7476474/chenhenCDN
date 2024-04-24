@@ -7,9 +7,10 @@
     {
       "source": "/web/404",
       "destination": "/web/404/index.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/web/404/index.html"
     }
-  ],
-  "error": {
-    "404": "/web/404/index.html"
-  }
+  ]
 }
