@@ -1,17 +1,9 @@
 {
   "version": 2,
-  "rewrites": [
-    {
-      "source": "/电影/你的婚礼",
-      "destination": "/电影/你的婚礼/index.html"
-    },
-    {
-      "source": "/web/404",
-      "destination": "/web/404/index.html"
-    },
-    {
-      "source": "/(?!web/404|电影/.*)(.*)",
-      "destination": "/web/404/index.html"
-    }
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/电影/你的婚礼", "dest": "/电影/你的婚礼/index.html" },
+    { "src": "/web/404", "dest": "/web/404/index.html" },
+    { "src": "/(.*)", "status": 404, "dest": "/web/404/404.html" }
   ]
 }
