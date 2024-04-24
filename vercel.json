@@ -2,6 +2,7 @@
   "rewrites": [
     {
       "source": "/你的婚礼",
-      "destination": "/你的婚礼/index.html"  
+      "destination": "/你的婚礼/index.html"
     }
   ]
+}
