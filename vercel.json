@@ -1,4 +1,5 @@
 {
+  "version": 2,
   "rewrites": [
     {
       "source": "/电影/你的婚礼",
@@ -9,7 +10,7 @@
       "destination": "/web/404/index.html"
     },
     {
-      "source": "/(?!web/404)(.*)",
+      "source": "/(.*)",
       "destination": "/web/404/index.html"
     }
   ]
